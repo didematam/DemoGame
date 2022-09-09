@@ -34,15 +34,12 @@ public class SpinButton : MonoBehaviour
 
     public float fadeTime = 1f;
 
-
-    private void OnValidate()
+    private void Start()
     {
-        button = GetComponent<Button>();
-        button.onClick.AddListener(Spinner);
-
+        button=GetComponent<Button>();
     }
 
-    void Spinner()
+    public void Spinner()
     {
         if (!button.interactable) return;
         button.interactable = false;

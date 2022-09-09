@@ -481,7 +481,6 @@ GameObject:
   - component: {fileID: 83942508}
   - component: {fileID: 83942507}
   - component: {fileID: 83942506}
-  - component: {fileID: 83942509}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -553,7 +552,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 83942507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 67882398}
+        m_TargetAssemblyTypeName: UIScreenController, Assembly-CSharp
+        m_MethodName: CancelExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &83942507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,19 +603,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83942504}
   m_CullTransparentMesh: 1
---- !u!114 &83942509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83942504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13a1b11e2b694a846b9178bbadfe5632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uIScreenController: {fileID: 67882398}
 --- !u!1 &97538196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,7 +2855,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 419511383}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419511382}
+        m_TargetAssemblyTypeName: SpinButton, Assembly-CSharp
+        m_MethodName: Spinner
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &419511382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4326,7 +4336,6 @@ GameObject:
   - component: {fileID: 650891296}
   - component: {fileID: 650891295}
   - component: {fileID: 650891294}
-  - component: {fileID: 650891297}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -4398,7 +4407,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 650891295}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 67882398}
+        m_TargetAssemblyTypeName: UIScreenController, Assembly-CSharp
+        m_MethodName: ExitQuestion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &650891295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4437,19 +4458,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650891292}
   m_CullTransparentMesh: 1
---- !u!114 &650891297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650891292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd629da76b07eb44f92ae76d2d540d99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uIScreenController: {fileID: 67882398}
 --- !u!1 &652198622
 GameObject:
   m_ObjectHideFlags: 0
@@ -5217,7 +5225,6 @@ GameObject:
   - component: {fileID: 757273492}
   - component: {fileID: 757273491}
   - component: {fileID: 757273490}
-  - component: {fileID: 757273493}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -5289,7 +5296,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 757273491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 67882398}
+        m_TargetAssemblyTypeName: UIScreenController, Assembly-CSharp
+        m_MethodName: RewardScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &757273491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5328,19 +5347,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757273488}
   m_CullTransparentMesh: 1
---- !u!114 &757273493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757273488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 830fcff2bafb5e44c813358628c5f6d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uIScreenController: {fileID: 67882398}
 --- !u!1 &758974474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6565,7 +6571,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xE7\u0131kmak istio musunuz?"
+  m_text: "Do You Want To Ex\u0131t ?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7084,6 +7090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -7584,7 +7591,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1172773217}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1172773216}
+        m_TargetAssemblyTypeName: SpinButton, Assembly-CSharp
+        m_MethodName: Spinner
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1172773216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10585,7 +10604,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1875503240}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1875503242}
+        m_TargetAssemblyTypeName: reviaveButton, Assembly-CSharp
+        m_MethodName: reviave
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1875503240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11825,7 +11856,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2040541513}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2040541515}
+        m_TargetAssemblyTypeName: TryAgain, Assembly-CSharp
+        m_MethodName: tryAgain
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2040541513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12138,7 +12181,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2068927180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2068927182}
+        m_TargetAssemblyTypeName: SpinButton, Assembly-CSharp
+        m_MethodName: Spinner
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2071833362
 GameObject:
   m_ObjectHideFlags: 0

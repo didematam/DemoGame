@@ -15,13 +15,7 @@ public class reviaveButton : MonoBehaviour
     [SerializeField] SpinButton gold;
 
 
-    private void OnValidate()
-    {
-        button = GetComponent<Button>();
-        button.onClick.AddListener(reviave);
-
-    }
-    void reviave()
+    public void reviave()
     {
         if((loot.lootItems.Where(x=> x.lootIcon.sprite == coinIcon).First().lootPoint) >= revivePoint)
         {

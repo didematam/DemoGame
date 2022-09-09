@@ -9,13 +9,8 @@ public class TryAgain : MonoBehaviour
     [SerializeField] levelCreator levelCreator;
     [SerializeField] Rewards rewards;
 
-    private void OnValidate()
-    {
-        button = GetComponent<Button>();
-        button.onClick.AddListener(tryAgain);
-
-    }
-    void tryAgain()
+  
+    public void tryAgain()
     {
         levelCreator.refreshGame(); 
         foreach (Transform child in rewards.gameObject.transform)

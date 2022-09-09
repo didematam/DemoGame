@@ -14,6 +14,7 @@ public class UIScreenController : MonoBehaviour
     }
     public void ExitQuestion()
     {
+      
         MainUI.DOAnchorPosX(-Screen.width, 1f);
     }
 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33f65c738ab65a44a34ad55619af34a, type: 3}
+  m_Name: armor points
+  m_EditorClassIdentifier: 
+  ID: 0
+  ItemName: ARMOR POINTS
+  Icon: {fileID: 21300000, guid: 520e0f45fa2a01747a3b8bd5488bda08, type: 3}
+  MinPoint: 5
+  MaxPoint: 50
+  currentPoint: 6
+  CanGivePoint: 1
+  RarityText: 
+  WeaponName: 
+  Rarity: 84.8
+  BackgroundColor: {r: 0.41509432, g: 0.405957, b: 0.405957, a: 1}
